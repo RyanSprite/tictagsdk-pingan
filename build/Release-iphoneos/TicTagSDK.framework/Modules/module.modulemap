@@ -1,0 +1,6 @@
+framework module TicTagSDK {
+  umbrella header "TicTagSDK.h"
+
+  export *
+  module * { export * }
+}

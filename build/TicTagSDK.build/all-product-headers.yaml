@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/chenyu/Desktop/SDK/TicTagSDK/build/Release-iphonesimulator/TicTagSDK.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "TicTagSDK-Swift.h",
+          'external-contents': "/Users/chenyu/Desktop/SDK/TicTagSDK/build/Release-iphonesimulator/TicTagSDK.framework/Headers/TicTagSDK-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "TicTagSDK.h",
+          'external-contents': "/Users/chenyu/Desktop/SDK/TicTagSDK/TicTagSDK/TicTagSDK.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/chenyu/Desktop/SDK/TicTagSDK/build/Release-iphonesimulator/TicTagSDK.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/chenyu/Desktop/SDK/TicTagSDK/build/TicTagSDK.build/Release-iphonesimulator/TicTagSDK.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
