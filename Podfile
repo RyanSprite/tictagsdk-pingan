@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '9.0'
 
 target 'testDemo' do
     # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
@@ -8,8 +8,9 @@ target 'testDemo' do
     pod 'MQTTClient'
     pod 'AFNetworking'
     pod 'SSZipArchive'
-    # Pods for testDemo
-    
+    pod 'SVProgressHUD'
+#pod 'AliyunSlsObjc', '~> 1.1.4'    # Pods for testDemo
+
 end
 
 target 'TicTagSDK' do
@@ -19,6 +20,7 @@ target 'TicTagSDK' do
 pod 'MQTTClient'
 pod 'AFNetworking'
 pod 'SSZipArchive'
-  # Pods for TicTagSDK
+
+#pod 'AliyunSlsObjc', '~> 1.1.4'  # Pods for TicTagSDK
 
 end

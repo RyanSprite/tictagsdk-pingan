@@ -1,0 +1,40 @@
+//
+//  HBDemo-Prefix.pch
+//  HBBluetooth
+//
+//  Created by 陈宇 on 2017/9/21.
+//  Copyright © 2017年 陈宇. All rights reserved.
+//
+
+#ifndef HBDemo_Prefix_pch
+#define HBDemo_Prefix_pch
+#import "HBUtil.h"
+#import "HBDefine.h"
+#import "HBConst.h"
+#import "HBTools.h"
+#import "HBEventManager.h"
+#import "HBBlueToothManager.h"
+#import "IBeaconManager.h"
+#import "HBInterface.h"
+#import "MQTTClient.h"
+#import "HBMQTTManager.h"
+#import "HBUploadManager.h"
+#import "HBDBManager.h"
+#import "HBHttpManager.h"
+#import "FOTAUpDateManager.h"
+#import "HBZIPManager.h"
+#import "RealReachability.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef DEBUG
+//#define HBLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);\
+
+#define HBLog(fmt, ...) NSLog(( fmt),  ##__VA_ARGS__);\
+//[iConsole log:(fmt), ##__VA_ARGS__];
+#else
+//#define HBLog(fmt,...) ;
+#define HBLog(fmt, ...) NSLog(( fmt),  ##__VA_ARGS__);\
+//[iConsole log:(fmt), ##__VA_ARGS__];
+
+#endif
+#endif /* HBDemo_Prefix_pch */

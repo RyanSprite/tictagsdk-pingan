@@ -1,0 +1,1141 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DD880022206105F600B51548 /* TTSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DD880023206105F600B51548 /* Build configuration list for PBXAggregateTarget "TTSDK" */;
+			buildPhases = (
+				DD880026206105FB00B51548 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = TTSDK;
+			productName = TTSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C6D39412EF743A8C61B37AEF /* libPods-TicTagSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3921C6573A9BE682EB8D03 /* libPods-TicTagSDK.a */; };
+		CD40252AF7C7DD862437E84E /* libPods-testDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FBA5B8D36D418ABDCEEDB6A /* libPods-testDemo.a */; };
+		DD411BDC2066A42800A07CEB /* AliyunLogObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = DD411BCE2066A42800A07CEB /* AliyunLogObjc.h */; };
+		DD411BDD2066A42800A07CEB /* Const.h in Headers */ = {isa = PBXBuildFile; fileRef = DD411BCF2066A42800A07CEB /* Const.h */; };
+		DD411BDE2066A42800A07CEB /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = DD411BD02066A42800A07CEB /* Log.h */; };
+		DD411BDF2066A42800A07CEB /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = DD411BD12066A42800A07CEB /* Log.m */; };
+		DD411BE02066A42800A07CEB /* LogClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DD411BD22066A42800A07CEB /* LogClient.h */; };
+		DD411BE12066A42800A07CEB /* LogClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DD411BD32066A42800A07CEB /* LogClient.m */; };
+		DD411BE22066A42800A07CEB /* LogGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = DD411BD42066A42800A07CEB /* LogGroup.h */; };
+		DD411BE32066A42800A07CEB /* LogGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DD411BD52066A42800A07CEB /* LogGroup.m */; };
+		DD411BE42066A42800A07CEB /* NSData+GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = DD411BD62066A42800A07CEB /* NSData+GZIP.h */; };
+		DD411BE52066A42800A07CEB /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = DD411BD72066A42800A07CEB /* NSData+GZIP.m */; };
+		DD411BE62066A42800A07CEB /* NSData+MD5Digest.h in Headers */ = {isa = PBXBuildFile; fileRef = DD411BD82066A42800A07CEB /* NSData+MD5Digest.h */; };
+		DD411BE72066A42800A07CEB /* NSData+MD5Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = DD411BD92066A42800A07CEB /* NSData+MD5Digest.m */; };
+		DD411BE82066A42800A07CEB /* NSString+Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = DD411BDA2066A42800A07CEB /* NSString+Crypto.h */; };
+		DD411BE92066A42800A07CEB /* NSString+Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = DD411BDB2066A42800A07CEB /* NSString+Crypto.m */; };
+		DD72B035206CF4DA001998C5 /* TTDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DD72B034206CF469001998C5 /* TTDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD88002F20610A7600B51548 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD88002E20610A7600B51548 /* AppDelegate.m */; };
+		DD88003220610A7600B51548 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD88003120610A7600B51548 /* ViewController.m */; };
+		DD88003520610A7600B51548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD88003320610A7600B51548 /* Main.storyboard */; };
+		DD88003720610A7600B51548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD88003620610A7600B51548 /* Assets.xcassets */; };
+		DD88003A20610A7600B51548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD88003820610A7600B51548 /* LaunchScreen.storyboard */; };
+		DD88003D20610A7600B51548 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD88003C20610A7600B51548 /* main.m */; };
+		DD88004320610B4300B51548 /* TTBlueToothManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD88004120610B4300B51548 /* TTBlueToothManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD88004420610B4300B51548 /* TTBlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD88004220610B4300B51548 /* TTBlueToothManager.m */; };
+		DD8800452061405D00B51548 /* TicTagSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD886872205F827800ED1414 /* TicTagSDK.framework */; };
+		DD886877205F827800ED1414 /* TicTagSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DD886875205F827800ED1414 /* TicTagSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD886907205F831D00ED1414 /* BluetoothManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD886893205F831D00ED1414 /* BluetoothManager.h */; };
+		DD886908205F831D00ED1414 /* BluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD886894205F831D00ED1414 /* BluetoothManager.m */; };
+		DD886909205F831D00ED1414 /* Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = DD886895205F831D00ED1414 /* Defines.h */; };
+		DD88690A205F831D00ED1414 /* DeviceStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = DD886896205F831D00ED1414 /* DeviceStorage.h */; };
+		DD88690B205F831D00ED1414 /* DeviceStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = DD886897205F831D00ED1414 /* DeviceStorage.m */; };
+		DD88690C205F831D00ED1414 /* GenericServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD886898205F831D00ED1414 /* GenericServiceManager.h */; };
+		DD88690D205F831D00ED1414 /* GenericServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD886899205F831D00ED1414 /* GenericServiceManager.m */; };
+		DD88690E205F831D00ED1414 /* ParameterStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = DD88689A205F831D00ED1414 /* ParameterStorage.h */; };
+		DD88690F205F831D00ED1414 /* ParameterStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = DD88689B205F831D00ED1414 /* ParameterStorage.m */; };
+		DD886910205F831D00ED1414 /* SUOTAServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD88689C205F831D00ED1414 /* SUOTAServiceManager.h */; };
+		DD886911205F831D00ED1414 /* SUOTAServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD88689D205F831D00ED1414 /* SUOTAServiceManager.m */; };
+		DD886912205F831D00ED1414 /* HBBlueToothManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD88689E205F831D00ED1414 /* HBBlueToothManager.h */; };
+		DD886913205F831D00ED1414 /* HBBlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD88689F205F831D00ED1414 /* HBBlueToothManager.m */; };
+		DD886914205F831D00ED1414 /* HBConst.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868A0205F831D00ED1414 /* HBConst.h */; };
+		DD886915205F831D00ED1414 /* HBDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868A1205F831D00ED1414 /* HBDefine.h */; };
+		DD886916205F831D00ED1414 /* HBDemo-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = DD8868A2205F831D00ED1414 /* HBDemo-Prefix.pch */; };
+		DD886917205F831D00ED1414 /* HBInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868A3205F831D00ED1414 /* HBInterface.h */; };
+		DD886918205F831D00ED1414 /* HBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868A5205F831D00ED1414 /* HBTools.h */; };
+		DD886919205F831D00ED1414 /* HBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868A6205F831D00ED1414 /* HBTools.m */; };
+		DD88691A205F831D00ED1414 /* HBUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868A7205F831D00ED1414 /* HBUtil.h */; };
+		DD88691B205F831D00ED1414 /* IBeaconManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868AA205F831D00ED1414 /* IBeaconManager.h */; };
+		DD88691C205F831D00ED1414 /* IBeaconManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868AB205F831D00ED1414 /* IBeaconManager.m */; };
+		DD88691F205F831D00ED1414 /* FOTAUpDateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868AF205F831D00ED1414 /* FOTAUpDateManager.h */; };
+		DD886920205F831D00ED1414 /* FOTAUpDateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868B0205F831D00ED1414 /* FOTAUpDateManager.m */; };
+		DD886921205F831D00ED1414 /* HBDBManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868B1205F831D00ED1414 /* HBDBManager.h */; };
+		DD886922205F831D00ED1414 /* HBDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868B2205F831D00ED1414 /* HBDBManager.m */; };
+		DD886923205F831D00ED1414 /* HBEventManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868B3205F831D00ED1414 /* HBEventManager.h */; };
+		DD886924205F831D00ED1414 /* HBEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868B4205F831D00ED1414 /* HBEventManager.m */; };
+		DD886925205F831D00ED1414 /* HBHttpManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868B5205F831D00ED1414 /* HBHttpManager.h */; };
+		DD886926205F831D00ED1414 /* HBHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868B6205F831D00ED1414 /* HBHttpManager.m */; };
+		DD886927205F831D00ED1414 /* HBMQTTManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868B7205F831D00ED1414 /* HBMQTTManager.h */; };
+		DD886928205F831D00ED1414 /* HBMQTTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868B8205F831D00ED1414 /* HBMQTTManager.m */; };
+		DD886929205F831D00ED1414 /* HBUploadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868B9205F831D00ED1414 /* HBUploadManager.h */; };
+		DD88692A205F831D00ED1414 /* HBUploadManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD8868BA205F831D00ED1414 /* HBUploadManager.mm */; };
+		DD88692B205F831D00ED1414 /* HBZIPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868BB205F831D00ED1414 /* HBZIPManager.h */; };
+		DD88692C205F831D00ED1414 /* HBZIPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868BC205F831D00ED1414 /* HBZIPManager.m */; };
+		DD88692D205F831D00ED1414 /* BabyBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868BE205F831D00ED1414 /* BabyBluetooth.h */; };
+		DD88692E205F831D00ED1414 /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868BF205F831D00ED1414 /* BabyBluetooth.m */; };
+		DD88692F205F831D00ED1414 /* BabyCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868C0205F831D00ED1414 /* BabyCallback.h */; };
+		DD886930205F831D00ED1414 /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868C1205F831D00ED1414 /* BabyCallback.m */; };
+		DD886931205F831D00ED1414 /* BabyCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868C2205F831D00ED1414 /* BabyCentralManager.h */; };
+		DD886932205F831D00ED1414 /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868C3205F831D00ED1414 /* BabyCentralManager.m */; };
+		DD886933205F831D00ED1414 /* BabyDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868C4205F831D00ED1414 /* BabyDefine.h */; };
+		DD886934205F831D00ED1414 /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868C5205F831D00ED1414 /* BabyDefine.m */; };
+		DD886935205F831D00ED1414 /* BabyOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868C6205F831D00ED1414 /* BabyOptions.h */; };
+		DD886936205F831D00ED1414 /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868C7205F831D00ED1414 /* BabyOptions.m */; };
+		DD886937205F831D00ED1414 /* BabyPeripheralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868C8205F831D00ED1414 /* BabyPeripheralManager.h */; };
+		DD886938205F831D00ED1414 /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868C9205F831D00ED1414 /* BabyPeripheralManager.m */; };
+		DD886939205F831D00ED1414 /* BabyRhythm.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868CA205F831D00ED1414 /* BabyRhythm.h */; };
+		DD88693A205F831D00ED1414 /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868CB205F831D00ED1414 /* BabyRhythm.m */; };
+		DD88693B205F831D00ED1414 /* BabySpeaker.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868CC205F831D00ED1414 /* BabySpeaker.h */; };
+		DD88693C205F831D00ED1414 /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868CD205F831D00ED1414 /* BabySpeaker.m */; };
+		DD88693D205F831D00ED1414 /* BabyToy.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868CE205F831D00ED1414 /* BabyToy.h */; };
+		DD88693E205F831D00ED1414 /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868CF205F831D00ED1414 /* BabyToy.m */; };
+		DD88693F205F831D00ED1414 /* PeripheralInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868D0205F831D00ED1414 /* PeripheralInfo.h */; };
+		DD886940205F831D00ED1414 /* PeripheralInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868D1205F831D00ED1414 /* PeripheralInfo.m */; };
+		DD886941205F831D00ED1414 /* LocalConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868D4205F831D00ED1414 /* LocalConnection.h */; };
+		DD886942205F831D00ED1414 /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868D5205F831D00ED1414 /* LocalConnection.m */; };
+		DD886943205F831D00ED1414 /* FSMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868D7205F831D00ED1414 /* FSMDefines.h */; };
+		DD886944205F831D00ED1414 /* FSMEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868D8205F831D00ED1414 /* FSMEngine.h */; };
+		DD886945205F831D00ED1414 /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868D9205F831D00ED1414 /* FSMEngine.m */; };
+		DD886946205F831D00ED1414 /* FSMStateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868DA205F831D00ED1414 /* FSMStateUtil.h */; };
+		DD886947205F831D00ED1414 /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868DB205F831D00ED1414 /* FSMStateUtil.m */; };
+		DD886948205F831D00ED1414 /* ReachState.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868DC205F831D00ED1414 /* ReachState.h */; };
+		DD886949205F831D00ED1414 /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868DD205F831D00ED1414 /* ReachState.m */; };
+		DD88694A205F831D00ED1414 /* ReachStateLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868DE205F831D00ED1414 /* ReachStateLoading.h */; };
+		DD88694B205F831D00ED1414 /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868DF205F831D00ED1414 /* ReachStateLoading.m */; };
+		DD88694C205F831D00ED1414 /* ReachStateUnloaded.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868E0205F831D00ED1414 /* ReachStateUnloaded.h */; };
+		DD88694D205F831D00ED1414 /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868E1205F831D00ED1414 /* ReachStateUnloaded.m */; };
+		DD88694E205F831D00ED1414 /* ReachStateUnReachable.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868E2205F831D00ED1414 /* ReachStateUnReachable.h */; };
+		DD88694F205F831D00ED1414 /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868E3205F831D00ED1414 /* ReachStateUnReachable.m */; };
+		DD886950205F831D00ED1414 /* ReachStateWIFI.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868E4205F831D00ED1414 /* ReachStateWIFI.h */; };
+		DD886951205F831D00ED1414 /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868E5205F831D00ED1414 /* ReachStateWIFI.m */; };
+		DD886952205F831D00ED1414 /* ReachStateWWAN.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868E6205F831D00ED1414 /* ReachStateWWAN.h */; };
+		DD886953205F831D00ED1414 /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868E7205F831D00ED1414 /* ReachStateWWAN.m */; };
+		DD886954205F831D00ED1414 /* PingFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868E9205F831D00ED1414 /* PingFoundation.h */; };
+		DD886955205F831D00ED1414 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868EA205F831D00ED1414 /* PingFoundation.m */; };
+		DD886956205F831D00ED1414 /* PingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868EB205F831D00ED1414 /* PingHelper.h */; };
+		DD886957205F831D00ED1414 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868EC205F831D00ED1414 /* PingHelper.m */; };
+		DD886958205F831D00ED1414 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DD8868ED205F831D00ED1414 /* README.md */; };
+		DD886959205F831D00ED1414 /* RealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8868EE205F831D00ED1414 /* RealReachability.h */; };
+		DD88695A205F831D00ED1414 /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8868EF205F831D00ED1414 /* RealReachability.m */; };
+		DD8964342063FD7B00944266 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7EA36D20622497001A320C /* libstdc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18B3A95778EF4CE27E1A43CD /* Pods-testDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-testDemo/Pods-testDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2D3921C6573A9BE682EB8D03 /* libPods-TicTagSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TicTagSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		374C732A1859DE08912E8B5A /* Pods-TicTagSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTagSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicTagSDK/Pods-TicTagSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		4FBA5B8D36D418ABDCEEDB6A /* libPods-testDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6757ABBD47956F8EFEDC2A /* Pods-testDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testDemo/Pods-testDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CDD829108770B14182D27F38 /* Pods-TicTagSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTagSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicTagSDK/Pods-TicTagSDK.release.xcconfig"; sourceTree = "<group>"; };
+		DD411BCE2066A42800A07CEB /* AliyunLogObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunLogObjc.h; sourceTree = "<group>"; };
+		DD411BCF2066A42800A07CEB /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		DD411BD02066A42800A07CEB /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		DD411BD12066A42800A07CEB /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+		DD411BD22066A42800A07CEB /* LogClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogClient.h; sourceTree = "<group>"; };
+		DD411BD32066A42800A07CEB /* LogClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogClient.m; sourceTree = "<group>"; };
+		DD411BD42066A42800A07CEB /* LogGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogGroup.h; sourceTree = "<group>"; };
+		DD411BD52066A42800A07CEB /* LogGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogGroup.m; sourceTree = "<group>"; };
+		DD411BD62066A42800A07CEB /* NSData+GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GZIP.h"; sourceTree = "<group>"; };
+		DD411BD72066A42800A07CEB /* NSData+GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GZIP.m"; sourceTree = "<group>"; };
+		DD411BD82066A42800A07CEB /* NSData+MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5Digest.h"; sourceTree = "<group>"; };
+		DD411BD92066A42800A07CEB /* NSData+MD5Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5Digest.m"; sourceTree = "<group>"; };
+		DD411BDA2066A42800A07CEB /* NSString+Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Crypto.h"; sourceTree = "<group>"; };
+		DD411BDB2066A42800A07CEB /* NSString+Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Crypto.m"; sourceTree = "<group>"; };
+		DD72B034206CF469001998C5 /* TTDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTDefines.h; sourceTree = "<group>"; };
+		DD7EA36D20622497001A320C /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		DD88002B20610A7600B51548 /* testDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD88002D20610A7600B51548 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD88002E20610A7600B51548 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD88003020610A7600B51548 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD88003120610A7600B51548 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD88003420610A7600B51548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD88003620610A7600B51548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD88003920610A7600B51548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD88003B20610A7600B51548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD88003C20610A7600B51548 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD88004120610B4300B51548 /* TTBlueToothManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTBlueToothManager.h; sourceTree = "<group>"; };
+		DD88004220610B4300B51548 /* TTBlueToothManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTBlueToothManager.m; sourceTree = "<group>"; };
+		DD886872205F827800ED1414 /* TicTagSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TicTagSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD886875205F827800ED1414 /* TicTagSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicTagSDK.h; sourceTree = "<group>"; };
+		DD886876205F827800ED1414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD886893205F831D00ED1414 /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
+		DD886894205F831D00ED1414 /* BluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothManager.m; sourceTree = "<group>"; };
+		DD886895205F831D00ED1414 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		DD886896205F831D00ED1414 /* DeviceStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceStorage.h; sourceTree = "<group>"; };
+		DD886897205F831D00ED1414 /* DeviceStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceStorage.m; sourceTree = "<group>"; };
+		DD886898205F831D00ED1414 /* GenericServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericServiceManager.h; sourceTree = "<group>"; };
+		DD886899205F831D00ED1414 /* GenericServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericServiceManager.m; sourceTree = "<group>"; };
+		DD88689A205F831D00ED1414 /* ParameterStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParameterStorage.h; sourceTree = "<group>"; };
+		DD88689B205F831D00ED1414 /* ParameterStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterStorage.m; sourceTree = "<group>"; };
+		DD88689C205F831D00ED1414 /* SUOTAServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUOTAServiceManager.h; sourceTree = "<group>"; };
+		DD88689D205F831D00ED1414 /* SUOTAServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUOTAServiceManager.m; sourceTree = "<group>"; };
+		DD88689E205F831D00ED1414 /* HBBlueToothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBlueToothManager.h; sourceTree = "<group>"; };
+		DD88689F205F831D00ED1414 /* HBBlueToothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBlueToothManager.m; sourceTree = "<group>"; };
+		DD8868A0205F831D00ED1414 /* HBConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBConst.h; sourceTree = "<group>"; };
+		DD8868A1205F831D00ED1414 /* HBDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBDefine.h; sourceTree = "<group>"; };
+		DD8868A2205F831D00ED1414 /* HBDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HBDemo-Prefix.pch"; sourceTree = "<group>"; };
+		DD8868A3205F831D00ED1414 /* HBInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBInterface.h; sourceTree = "<group>"; };
+		DD8868A5205F831D00ED1414 /* HBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTools.h; sourceTree = "<group>"; };
+		DD8868A6205F831D00ED1414 /* HBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTools.m; sourceTree = "<group>"; };
+		DD8868A7205F831D00ED1414 /* HBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBUtil.h; sourceTree = "<group>"; };
+		DD8868AA205F831D00ED1414 /* IBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBeaconManager.h; sourceTree = "<group>"; };
+		DD8868AB205F831D00ED1414 /* IBeaconManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBeaconManager.m; sourceTree = "<group>"; };
+		DD8868AF205F831D00ED1414 /* FOTAUpDateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOTAUpDateManager.h; sourceTree = "<group>"; };
+		DD8868B0205F831D00ED1414 /* FOTAUpDateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOTAUpDateManager.m; sourceTree = "<group>"; };
+		DD8868B1205F831D00ED1414 /* HBDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBDBManager.h; sourceTree = "<group>"; };
+		DD8868B2205F831D00ED1414 /* HBDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBDBManager.m; sourceTree = "<group>"; };
+		DD8868B3205F831D00ED1414 /* HBEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBEventManager.h; sourceTree = "<group>"; };
+		DD8868B4205F831D00ED1414 /* HBEventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBEventManager.m; sourceTree = "<group>"; };
+		DD8868B5205F831D00ED1414 /* HBHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHttpManager.h; sourceTree = "<group>"; };
+		DD8868B6205F831D00ED1414 /* HBHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHttpManager.m; sourceTree = "<group>"; };
+		DD8868B7205F831D00ED1414 /* HBMQTTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBMQTTManager.h; sourceTree = "<group>"; };
+		DD8868B8205F831D00ED1414 /* HBMQTTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBMQTTManager.m; sourceTree = "<group>"; };
+		DD8868B9205F831D00ED1414 /* HBUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBUploadManager.h; sourceTree = "<group>"; };
+		DD8868BA205F831D00ED1414 /* HBUploadManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HBUploadManager.mm; sourceTree = "<group>"; };
+		DD8868BB205F831D00ED1414 /* HBZIPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBZIPManager.h; sourceTree = "<group>"; };
+		DD8868BC205F831D00ED1414 /* HBZIPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBZIPManager.m; sourceTree = "<group>"; };
+		DD8868BE205F831D00ED1414 /* BabyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyBluetooth.h; sourceTree = "<group>"; };
+		DD8868BF205F831D00ED1414 /* BabyBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyBluetooth.m; sourceTree = "<group>"; };
+		DD8868C0205F831D00ED1414 /* BabyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCallback.h; sourceTree = "<group>"; };
+		DD8868C1205F831D00ED1414 /* BabyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCallback.m; sourceTree = "<group>"; };
+		DD8868C2205F831D00ED1414 /* BabyCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCentralManager.h; sourceTree = "<group>"; };
+		DD8868C3205F831D00ED1414 /* BabyCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCentralManager.m; sourceTree = "<group>"; };
+		DD8868C4205F831D00ED1414 /* BabyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
+		DD8868C5205F831D00ED1414 /* BabyDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyDefine.m; sourceTree = "<group>"; };
+		DD8868C6205F831D00ED1414 /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
+		DD8868C7205F831D00ED1414 /* BabyOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyOptions.m; sourceTree = "<group>"; };
+		DD8868C8205F831D00ED1414 /* BabyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyPeripheralManager.h; sourceTree = "<group>"; };
+		DD8868C9205F831D00ED1414 /* BabyPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyPeripheralManager.m; sourceTree = "<group>"; };
+		DD8868CA205F831D00ED1414 /* BabyRhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyRhythm.h; sourceTree = "<group>"; };
+		DD8868CB205F831D00ED1414 /* BabyRhythm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyRhythm.m; sourceTree = "<group>"; };
+		DD8868CC205F831D00ED1414 /* BabySpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabySpeaker.h; sourceTree = "<group>"; };
+		DD8868CD205F831D00ED1414 /* BabySpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabySpeaker.m; sourceTree = "<group>"; };
+		DD8868CE205F831D00ED1414 /* BabyToy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyToy.h; sourceTree = "<group>"; };
+		DD8868CF205F831D00ED1414 /* BabyToy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyToy.m; sourceTree = "<group>"; };
+		DD8868D0205F831D00ED1414 /* PeripheralInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralInfo.h; sourceTree = "<group>"; };
+		DD8868D1205F831D00ED1414 /* PeripheralInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralInfo.m; sourceTree = "<group>"; };
+		DD8868D4205F831D00ED1414 /* LocalConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalConnection.h; sourceTree = "<group>"; };
+		DD8868D5205F831D00ED1414 /* LocalConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalConnection.m; sourceTree = "<group>"; };
+		DD8868D7205F831D00ED1414 /* FSMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMDefines.h; sourceTree = "<group>"; };
+		DD8868D8205F831D00ED1414 /* FSMEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMEngine.h; sourceTree = "<group>"; };
+		DD8868D9205F831D00ED1414 /* FSMEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMEngine.m; sourceTree = "<group>"; };
+		DD8868DA205F831D00ED1414 /* FSMStateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMStateUtil.h; sourceTree = "<group>"; };
+		DD8868DB205F831D00ED1414 /* FSMStateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMStateUtil.m; sourceTree = "<group>"; };
+		DD8868DC205F831D00ED1414 /* ReachState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachState.h; sourceTree = "<group>"; };
+		DD8868DD205F831D00ED1414 /* ReachState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachState.m; sourceTree = "<group>"; };
+		DD8868DE205F831D00ED1414 /* ReachStateLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateLoading.h; sourceTree = "<group>"; };
+		DD8868DF205F831D00ED1414 /* ReachStateLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateLoading.m; sourceTree = "<group>"; };
+		DD8868E0205F831D00ED1414 /* ReachStateUnloaded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateUnloaded.h; sourceTree = "<group>"; };
+		DD8868E1205F831D00ED1414 /* ReachStateUnloaded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateUnloaded.m; sourceTree = "<group>"; };
+		DD8868E2205F831D00ED1414 /* ReachStateUnReachable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateUnReachable.h; sourceTree = "<group>"; };
+		DD8868E3205F831D00ED1414 /* ReachStateUnReachable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateUnReachable.m; sourceTree = "<group>"; };
+		DD8868E4205F831D00ED1414 /* ReachStateWIFI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateWIFI.h; sourceTree = "<group>"; };
+		DD8868E5205F831D00ED1414 /* ReachStateWIFI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateWIFI.m; sourceTree = "<group>"; };
+		DD8868E6205F831D00ED1414 /* ReachStateWWAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateWWAN.h; sourceTree = "<group>"; };
+		DD8868E7205F831D00ED1414 /* ReachStateWWAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateWWAN.m; sourceTree = "<group>"; };
+		DD8868E9205F831D00ED1414 /* PingFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingFoundation.h; sourceTree = "<group>"; };
+		DD8868EA205F831D00ED1414 /* PingFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingFoundation.m; sourceTree = "<group>"; };
+		DD8868EB205F831D00ED1414 /* PingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingHelper.h; sourceTree = "<group>"; };
+		DD8868EC205F831D00ED1414 /* PingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingHelper.m; sourceTree = "<group>"; };
+		DD8868ED205F831D00ED1414 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DD8868EE205F831D00ED1414 /* RealReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealReachability.h; sourceTree = "<group>"; };
+		DD8868EF205F831D00ED1414 /* RealReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealReachability.m; sourceTree = "<group>"; };
+		DD8964312063FD1800944266 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD88002820610A7600B51548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8964342063FD7B00944266 /* libstdc++.tbd in Frameworks */,
+				DD8800452061405D00B51548 /* TicTagSDK.framework in Frameworks */,
+				CD40252AF7C7DD862437E84E /* libPods-testDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD88686E205F827800ED1414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D39412EF743A8C61B37AEF /* libPods-TicTagSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B12BE7D895DFD24AEEA83ABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD8964312063FD1800944266 /* libresolv.9.tbd */,
+				DD7EA36D20622497001A320C /* libstdc++.tbd */,
+				2D3921C6573A9BE682EB8D03 /* libPods-TicTagSDK.a */,
+				4FBA5B8D36D418ABDCEEDB6A /* libPods-testDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD411BCD2066A42800A07CEB /* AliLog */ = {
+			isa = PBXGroup;
+			children = (
+				DD411BCE2066A42800A07CEB /* AliyunLogObjc.h */,
+				DD411BCF2066A42800A07CEB /* Const.h */,
+				DD411BD02066A42800A07CEB /* Log.h */,
+				DD411BD12066A42800A07CEB /* Log.m */,
+				DD411BD22066A42800A07CEB /* LogClient.h */,
+				DD411BD32066A42800A07CEB /* LogClient.m */,
+				DD411BD42066A42800A07CEB /* LogGroup.h */,
+				DD411BD52066A42800A07CEB /* LogGroup.m */,
+				DD411BD62066A42800A07CEB /* NSData+GZIP.h */,
+				DD411BD72066A42800A07CEB /* NSData+GZIP.m */,
+				DD411BD82066A42800A07CEB /* NSData+MD5Digest.h */,
+				DD411BD92066A42800A07CEB /* NSData+MD5Digest.m */,
+				DD411BDA2066A42800A07CEB /* NSString+Crypto.h */,
+				DD411BDB2066A42800A07CEB /* NSString+Crypto.m */,
+			);
+			name = AliLog;
+			path = ../../../../HBBluetooth/HBBluetooth/AliLog;
+			sourceTree = "<group>";
+		};
+		DD88002C20610A7600B51548 /* testDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DD88002D20610A7600B51548 /* AppDelegate.h */,
+				DD88002E20610A7600B51548 /* AppDelegate.m */,
+				DD88003020610A7600B51548 /* ViewController.h */,
+				DD88003120610A7600B51548 /* ViewController.m */,
+				DD88003320610A7600B51548 /* Main.storyboard */,
+				DD88003620610A7600B51548 /* Assets.xcassets */,
+				DD88003820610A7600B51548 /* LaunchScreen.storyboard */,
+				DD88003B20610A7600B51548 /* Info.plist */,
+				DD88003C20610A7600B51548 /* main.m */,
+			);
+			path = testDemo;
+			sourceTree = "<group>";
+		};
+		DD886868205F827800ED1414 = {
+			isa = PBXGroup;
+			children = (
+				DD886874205F827800ED1414 /* TicTagSDK */,
+				DD88002C20610A7600B51548 /* testDemo */,
+				DD886873205F827800ED1414 /* Products */,
+				F2A81D8DE8F7C00268A28531 /* Pods */,
+				B12BE7D895DFD24AEEA83ABD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD886873205F827800ED1414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD886872205F827800ED1414 /* TicTagSDK.framework */,
+				DD88002B20610A7600B51548 /* testDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD886874205F827800ED1414 /* TicTagSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DD886882205F831D00ED1414 /* SDKSource */,
+				DD886875205F827800ED1414 /* TicTagSDK.h */,
+				DD886876205F827800ED1414 /* Info.plist */,
+				DD88004120610B4300B51548 /* TTBlueToothManager.h */,
+				DD88004220610B4300B51548 /* TTBlueToothManager.m */,
+				DD72B034206CF469001998C5 /* TTDefines.h */,
+			);
+			path = TicTagSDK;
+			sourceTree = "<group>";
+		};
+		DD886882205F831D00ED1414 /* SDKSource */ = {
+			isa = PBXGroup;
+			children = (
+				DD411BCD2066A42800A07CEB /* AliLog */,
+				DD886892205F831D00ED1414 /* FOTALib */,
+				DD88689E205F831D00ED1414 /* HBBlueToothManager.h */,
+				DD88689F205F831D00ED1414 /* HBBlueToothManager.m */,
+				DD8868A0205F831D00ED1414 /* HBConst.h */,
+				DD8868A1205F831D00ED1414 /* HBDefine.h */,
+				DD8868A2205F831D00ED1414 /* HBDemo-Prefix.pch */,
+				DD8868A3205F831D00ED1414 /* HBInterface.h */,
+				DD8868A4205F831D00ED1414 /* HBLoading */,
+				DD8868A5205F831D00ED1414 /* HBTools.h */,
+				DD8868A6205F831D00ED1414 /* HBTools.m */,
+				DD8868A7205F831D00ED1414 /* HBUtil.h */,
+				DD8868A9205F831D00ED1414 /* HBWebVC */,
+				DD8868AA205F831D00ED1414 /* IBeaconManager.h */,
+				DD8868AB205F831D00ED1414 /* IBeaconManager.m */,
+				DD8868AE205F831D00ED1414 /* Manager */,
+				DD8868BD205F831D00ED1414 /* objc */,
+				DD8868D0205F831D00ED1414 /* PeripheralInfo.h */,
+				DD8868D1205F831D00ED1414 /* PeripheralInfo.m */,
+				DD8868D2205F831D00ED1414 /* RealReachability */,
+			);
+			path = SDKSource;
+			sourceTree = "<group>";
+		};
+		DD886892205F831D00ED1414 /* FOTALib */ = {
+			isa = PBXGroup;
+			children = (
+				DD886893205F831D00ED1414 /* BluetoothManager.h */,
+				DD886894205F831D00ED1414 /* BluetoothManager.m */,
+				DD886895205F831D00ED1414 /* Defines.h */,
+				DD886896205F831D00ED1414 /* DeviceStorage.h */,
+				DD886897205F831D00ED1414 /* DeviceStorage.m */,
+				DD886898205F831D00ED1414 /* GenericServiceManager.h */,
+				DD886899205F831D00ED1414 /* GenericServiceManager.m */,
+				DD88689A205F831D00ED1414 /* ParameterStorage.h */,
+				DD88689B205F831D00ED1414 /* ParameterStorage.m */,
+				DD88689C205F831D00ED1414 /* SUOTAServiceManager.h */,
+				DD88689D205F831D00ED1414 /* SUOTAServiceManager.m */,
+			);
+			path = FOTALib;
+			sourceTree = "<group>";
+		};
+		DD8868A4205F831D00ED1414 /* HBLoading */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HBLoading;
+			sourceTree = "<group>";
+		};
+		DD8868A9205F831D00ED1414 /* HBWebVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HBWebVC;
+			sourceTree = "<group>";
+		};
+		DD8868AE205F831D00ED1414 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DD8868AF205F831D00ED1414 /* FOTAUpDateManager.h */,
+				DD8868B0205F831D00ED1414 /* FOTAUpDateManager.m */,
+				DD8868B1205F831D00ED1414 /* HBDBManager.h */,
+				DD8868B2205F831D00ED1414 /* HBDBManager.m */,
+				DD8868B3205F831D00ED1414 /* HBEventManager.h */,
+				DD8868B4205F831D00ED1414 /* HBEventManager.m */,
+				DD8868B5205F831D00ED1414 /* HBHttpManager.h */,
+				DD8868B6205F831D00ED1414 /* HBHttpManager.m */,
+				DD8868B7205F831D00ED1414 /* HBMQTTManager.h */,
+				DD8868B8205F831D00ED1414 /* HBMQTTManager.m */,
+				DD8868B9205F831D00ED1414 /* HBUploadManager.h */,
+				DD8868BA205F831D00ED1414 /* HBUploadManager.mm */,
+				DD8868BB205F831D00ED1414 /* HBZIPManager.h */,
+				DD8868BC205F831D00ED1414 /* HBZIPManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		DD8868BD205F831D00ED1414 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				DD8868BE205F831D00ED1414 /* BabyBluetooth.h */,
+				DD8868BF205F831D00ED1414 /* BabyBluetooth.m */,
+				DD8868C0205F831D00ED1414 /* BabyCallback.h */,
+				DD8868C1205F831D00ED1414 /* BabyCallback.m */,
+				DD8868C2205F831D00ED1414 /* BabyCentralManager.h */,
+				DD8868C3205F831D00ED1414 /* BabyCentralManager.m */,
+				DD8868C4205F831D00ED1414 /* BabyDefine.h */,
+				DD8868C5205F831D00ED1414 /* BabyDefine.m */,
+				DD8868C6205F831D00ED1414 /* BabyOptions.h */,
+				DD8868C7205F831D00ED1414 /* BabyOptions.m */,
+				DD8868C8205F831D00ED1414 /* BabyPeripheralManager.h */,
+				DD8868C9205F831D00ED1414 /* BabyPeripheralManager.m */,
+				DD8868CA205F831D00ED1414 /* BabyRhythm.h */,
+				DD8868CB205F831D00ED1414 /* BabyRhythm.m */,
+				DD8868CC205F831D00ED1414 /* BabySpeaker.h */,
+				DD8868CD205F831D00ED1414 /* BabySpeaker.m */,
+				DD8868CE205F831D00ED1414 /* BabyToy.h */,
+				DD8868CF205F831D00ED1414 /* BabyToy.m */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		DD8868D2205F831D00ED1414 /* RealReachability */ = {
+			isa = PBXGroup;
+			children = (
+				DD8868D3205F831D00ED1414 /* Connection */,
+				DD8868D6205F831D00ED1414 /* FSM */,
+				DD8868E8205F831D00ED1414 /* Ping */,
+				DD8868EE205F831D00ED1414 /* RealReachability.h */,
+				DD8868EF205F831D00ED1414 /* RealReachability.m */,
+			);
+			path = RealReachability;
+			sourceTree = "<group>";
+		};
+		DD8868D3205F831D00ED1414 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				DD8868D4205F831D00ED1414 /* LocalConnection.h */,
+				DD8868D5205F831D00ED1414 /* LocalConnection.m */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		DD8868D6205F831D00ED1414 /* FSM */ = {
+			isa = PBXGroup;
+			children = (
+				DD8868D7205F831D00ED1414 /* FSMDefines.h */,
+				DD8868D8205F831D00ED1414 /* FSMEngine.h */,
+				DD8868D9205F831D00ED1414 /* FSMEngine.m */,
+				DD8868DA205F831D00ED1414 /* FSMStateUtil.h */,
+				DD8868DB205F831D00ED1414 /* FSMStateUtil.m */,
+				DD8868DC205F831D00ED1414 /* ReachState.h */,
+				DD8868DD205F831D00ED1414 /* ReachState.m */,
+				DD8868DE205F831D00ED1414 /* ReachStateLoading.h */,
+				DD8868DF205F831D00ED1414 /* ReachStateLoading.m */,
+				DD8868E0205F831D00ED1414 /* ReachStateUnloaded.h */,
+				DD8868E1205F831D00ED1414 /* ReachStateUnloaded.m */,
+				DD8868E2205F831D00ED1414 /* ReachStateUnReachable.h */,
+				DD8868E3205F831D00ED1414 /* ReachStateUnReachable.m */,
+				DD8868E4205F831D00ED1414 /* ReachStateWIFI.h */,
+				DD8868E5205F831D00ED1414 /* ReachStateWIFI.m */,
+				DD8868E6205F831D00ED1414 /* ReachStateWWAN.h */,
+				DD8868E7205F831D00ED1414 /* ReachStateWWAN.m */,
+			);
+			path = FSM;
+			sourceTree = "<group>";
+		};
+		DD8868E8205F831D00ED1414 /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				DD8868E9205F831D00ED1414 /* PingFoundation.h */,
+				DD8868EA205F831D00ED1414 /* PingFoundation.m */,
+				DD8868EB205F831D00ED1414 /* PingHelper.h */,
+				DD8868EC205F831D00ED1414 /* PingHelper.m */,
+				DD8868ED205F831D00ED1414 /* README.md */,
+			);
+			path = Ping;
+			sourceTree = "<group>";
+		};
+		F2A81D8DE8F7C00268A28531 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				374C732A1859DE08912E8B5A /* Pods-TicTagSDK.debug.xcconfig */,
+				CDD829108770B14182D27F38 /* Pods-TicTagSDK.release.xcconfig */,
+				9A6757ABBD47956F8EFEDC2A /* Pods-testDemo.debug.xcconfig */,
+				18B3A95778EF4CE27E1A43CD /* Pods-testDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DD88686F205F827800ED1414 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD886956205F831D00ED1414 /* PingHelper.h in Headers */,
+				DD88004320610B4300B51548 /* TTBlueToothManager.h in Headers */,
+				DD72B035206CF4DA001998C5 /* TTDefines.h in Headers */,
+				DD886943205F831D00ED1414 /* FSMDefines.h in Headers */,
+				DD88692B205F831D00ED1414 /* HBZIPManager.h in Headers */,
+				DD886954205F831D00ED1414 /* PingFoundation.h in Headers */,
+				DD886929205F831D00ED1414 /* HBUploadManager.h in Headers */,
+				DD88691F205F831D00ED1414 /* FOTAUpDateManager.h in Headers */,
+				DD886921205F831D00ED1414 /* HBDBManager.h in Headers */,
+				DD886927205F831D00ED1414 /* HBMQTTManager.h in Headers */,
+				DD88694C205F831D00ED1414 /* ReachStateUnloaded.h in Headers */,
+				DD88693D205F831D00ED1414 /* BabyToy.h in Headers */,
+				DD411BE42066A42800A07CEB /* NSData+GZIP.h in Headers */,
+				DD411BE22066A42800A07CEB /* LogGroup.h in Headers */,
+				DD886959205F831D00ED1414 /* RealReachability.h in Headers */,
+				DD886944205F831D00ED1414 /* FSMEngine.h in Headers */,
+				DD886939205F831D00ED1414 /* BabyRhythm.h in Headers */,
+				DD886916205F831D00ED1414 /* HBDemo-Prefix.pch in Headers */,
+				DD886950205F831D00ED1414 /* ReachStateWIFI.h in Headers */,
+				DD886918205F831D00ED1414 /* HBTools.h in Headers */,
+				DD886937205F831D00ED1414 /* BabyPeripheralManager.h in Headers */,
+				DD88692D205F831D00ED1414 /* BabyBluetooth.h in Headers */,
+				DD886914205F831D00ED1414 /* HBConst.h in Headers */,
+				DD88690E205F831D00ED1414 /* ParameterStorage.h in Headers */,
+				DD411BE62066A42800A07CEB /* NSData+MD5Digest.h in Headers */,
+				DD88691A205F831D00ED1414 /* HBUtil.h in Headers */,
+				DD411BE82066A42800A07CEB /* NSString+Crypto.h in Headers */,
+				DD411BE02066A42800A07CEB /* LogClient.h in Headers */,
+				DD886935205F831D00ED1414 /* BabyOptions.h in Headers */,
+				DD88692F205F831D00ED1414 /* BabyCallback.h in Headers */,
+				DD886912205F831D00ED1414 /* HBBlueToothManager.h in Headers */,
+				DD886952205F831D00ED1414 /* ReachStateWWAN.h in Headers */,
+				DD88691B205F831D00ED1414 /* IBeaconManager.h in Headers */,
+				DD886915205F831D00ED1414 /* HBDefine.h in Headers */,
+				DD886877205F827800ED1414 /* TicTagSDK.h in Headers */,
+				DD886933205F831D00ED1414 /* BabyDefine.h in Headers */,
+				DD886910205F831D00ED1414 /* SUOTAServiceManager.h in Headers */,
+				DD88690A205F831D00ED1414 /* DeviceStorage.h in Headers */,
+				DD88693B205F831D00ED1414 /* BabySpeaker.h in Headers */,
+				DD88690C205F831D00ED1414 /* GenericServiceManager.h in Headers */,
+				DD886909205F831D00ED1414 /* Defines.h in Headers */,
+				DD886925205F831D00ED1414 /* HBHttpManager.h in Headers */,
+				DD411BDD2066A42800A07CEB /* Const.h in Headers */,
+				DD886946205F831D00ED1414 /* FSMStateUtil.h in Headers */,
+				DD886917205F831D00ED1414 /* HBInterface.h in Headers */,
+				DD88694A205F831D00ED1414 /* ReachStateLoading.h in Headers */,
+				DD411BDC2066A42800A07CEB /* AliyunLogObjc.h in Headers */,
+				DD886907205F831D00ED1414 /* BluetoothManager.h in Headers */,
+				DD886923205F831D00ED1414 /* HBEventManager.h in Headers */,
+				DD88694E205F831D00ED1414 /* ReachStateUnReachable.h in Headers */,
+				DD88693F205F831D00ED1414 /* PeripheralInfo.h in Headers */,
+				DD411BDE2066A42800A07CEB /* Log.h in Headers */,
+				DD886941205F831D00ED1414 /* LocalConnection.h in Headers */,
+				DD886931205F831D00ED1414 /* BabyCentralManager.h in Headers */,
+				DD886948205F831D00ED1414 /* ReachState.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DD88002A20610A7600B51548 /* testDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD88003E20610A7600B51548 /* Build configuration list for PBXNativeTarget "testDemo" */;
+			buildPhases = (
+				EE992BD723F719CF78443EAE /* [CP] Check Pods Manifest.lock */,
+				DD88002720610A7600B51548 /* Sources */,
+				DD88002820610A7600B51548 /* Frameworks */,
+				DD88002920610A7600B51548 /* Resources */,
+				60D4C831639D3B9DEC0337A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testDemo;
+			productName = testDemo;
+			productReference = DD88002B20610A7600B51548 /* testDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD886871205F827800ED1414 /* TicTagSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD88687A205F827800ED1414 /* Build configuration list for PBXNativeTarget "TicTagSDK" */;
+			buildPhases = (
+				A36023F0014E8BDED353991B /* [CP] Check Pods Manifest.lock */,
+				DD88686D205F827800ED1414 /* Sources */,
+				DD88686E205F827800ED1414 /* Frameworks */,
+				DD88686F205F827800ED1414 /* Headers */,
+				DD886870205F827800ED1414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicTagSDK;
+			productName = TicTagSDK;
+			productReference = DD886872205F827800ED1414 /* TicTagSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD886869205F827800ED1414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "陈宇";
+				TargetAttributes = {
+					DD880022206105F600B51548 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DD88002A20610A7600B51548 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DD886871205F827800ED1414 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DD88686C205F827800ED1414 /* Build configuration list for PBXProject "TicTagSDK" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD886868205F827800ED1414;
+			productRefGroup = DD886873205F827800ED1414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD886871205F827800ED1414 /* TicTagSDK */,
+				DD880022206105F600B51548 /* TTSDK */,
+				DD88002A20610A7600B51548 /* testDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD88002920610A7600B51548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD88003A20610A7600B51548 /* LaunchScreen.storyboard in Resources */,
+				DD88003720610A7600B51548 /* Assets.xcassets in Resources */,
+				DD88003520610A7600B51548 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD886870205F827800ED1414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD886958205F831D00ED1414 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60D4C831639D3B9DEC0337A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-testDemo/Pods-testDemo-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testDemo/Pods-testDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A36023F0014E8BDED353991B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TicTagSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD880026206105FB00B51548 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${ACTION}\" = \"build\" ]\nthen\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\n\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\n\n\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\n\n#open \"${DEVICE_DIR}\"\nopen \"${SRCROOT}/Products\"\nfi";
+		};
+		EE992BD723F719CF78443EAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD88002720610A7600B51548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD88003220610A7600B51548 /* ViewController.m in Sources */,
+				DD88003D20610A7600B51548 /* main.m in Sources */,
+				DD88002F20610A7600B51548 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD88686D205F827800ED1414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD411BDF2066A42800A07CEB /* Log.m in Sources */,
+				DD886955205F831D00ED1414 /* PingFoundation.m in Sources */,
+				DD88692E205F831D00ED1414 /* BabyBluetooth.m in Sources */,
+				DD88694D205F831D00ED1414 /* ReachStateUnloaded.m in Sources */,
+				DD886940205F831D00ED1414 /* PeripheralInfo.m in Sources */,
+				DD88690D205F831D00ED1414 /* GenericServiceManager.m in Sources */,
+				DD886930205F831D00ED1414 /* BabyCallback.m in Sources */,
+				DD411BE12066A42800A07CEB /* LogClient.m in Sources */,
+				DD886934205F831D00ED1414 /* BabyDefine.m in Sources */,
+				DD886936205F831D00ED1414 /* BabyOptions.m in Sources */,
+				DD411BE52066A42800A07CEB /* NSData+GZIP.m in Sources */,
+				DD886942205F831D00ED1414 /* LocalConnection.m in Sources */,
+				DD88694B205F831D00ED1414 /* ReachStateLoading.m in Sources */,
+				DD886924205F831D00ED1414 /* HBEventManager.m in Sources */,
+				DD886908205F831D00ED1414 /* BluetoothManager.m in Sources */,
+				DD88691C205F831D00ED1414 /* IBeaconManager.m in Sources */,
+				DD411BE92066A42800A07CEB /* NSString+Crypto.m in Sources */,
+				DD886938205F831D00ED1414 /* BabyPeripheralManager.m in Sources */,
+				DD886932205F831D00ED1414 /* BabyCentralManager.m in Sources */,
+				DD88692C205F831D00ED1414 /* HBZIPManager.m in Sources */,
+				DD886945205F831D00ED1414 /* FSMEngine.m in Sources */,
+				DD886957205F831D00ED1414 /* PingHelper.m in Sources */,
+				DD886953205F831D00ED1414 /* ReachStateWWAN.m in Sources */,
+				DD88695A205F831D00ED1414 /* RealReachability.m in Sources */,
+				DD886920205F831D00ED1414 /* FOTAUpDateManager.m in Sources */,
+				DD88690F205F831D00ED1414 /* ParameterStorage.m in Sources */,
+				DD886928205F831D00ED1414 /* HBMQTTManager.m in Sources */,
+				DD88693A205F831D00ED1414 /* BabyRhythm.m in Sources */,
+				DD886911205F831D00ED1414 /* SUOTAServiceManager.m in Sources */,
+				DD886947205F831D00ED1414 /* FSMStateUtil.m in Sources */,
+				DD411BE72066A42800A07CEB /* NSData+MD5Digest.m in Sources */,
+				DD88692A205F831D00ED1414 /* HBUploadManager.mm in Sources */,
+				DD886949205F831D00ED1414 /* ReachState.m in Sources */,
+				DD886951205F831D00ED1414 /* ReachStateWIFI.m in Sources */,
+				DD411BE32066A42800A07CEB /* LogGroup.m in Sources */,
+				DD886926205F831D00ED1414 /* HBHttpManager.m in Sources */,
+				DD88694F205F831D00ED1414 /* ReachStateUnReachable.m in Sources */,
+				DD88693E205F831D00ED1414 /* BabyToy.m in Sources */,
+				DD886922205F831D00ED1414 /* HBDBManager.m in Sources */,
+				DD886919205F831D00ED1414 /* HBTools.m in Sources */,
+				DD88004420610B4300B51548 /* TTBlueToothManager.m in Sources */,
+				DD88693C205F831D00ED1414 /* BabySpeaker.m in Sources */,
+				DD886913205F831D00ED1414 /* HBBlueToothManager.m in Sources */,
+				DD88690B205F831D00ED1414 /* DeviceStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD88003320610A7600B51548 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD88003420610A7600B51548 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD88003820610A7600B51548 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD88003920610A7600B51548 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD880024206105F600B51548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE253S43Q9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD880025206105F600B51548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE253S43Q9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD88003F20610A7600B51548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6757ABBD47956F8EFEDC2A /* Pods-testDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE253S43Q9;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = testDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-objc",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.huabao.testDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(inherited)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD88004020610A7600B51548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B3A95778EF4CE27E1A43CD /* Pods-testDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE253S43Q9;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = testDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-objc",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.huabao.testDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(inherited)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD886878205F827800ED1414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD886879205F827800ED1414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD88687B205F827800ED1414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374C732A1859DE08912E8B5A /* Pods-TicTagSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YE253S43Q9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TicTagSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = io.huabao.TicTagSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD88687C205F827800ED1414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD829108770B14182D27F38 /* Pods-TicTagSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YE253S43Q9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TicTagSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = io.huabao.TicTagSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD880023206105F600B51548 /* Build configuration list for PBXAggregateTarget "TTSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD880024206105F600B51548 /* Debug */,
+				DD880025206105F600B51548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD88003E20610A7600B51548 /* Build configuration list for PBXNativeTarget "testDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD88003F20610A7600B51548 /* Debug */,
+				DD88004020610A7600B51548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD88686C205F827800ED1414 /* Build configuration list for PBXProject "TicTagSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD886878205F827800ED1414 /* Debug */,
+				DD886879205F827800ED1414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD88687A205F827800ED1414 /* Build configuration list for PBXNativeTarget "TicTagSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD88687B205F827800ED1414 /* Debug */,
+				DD88687C205F827800ED1414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD886869205F827800ED1414 /* Project object */;
+}
